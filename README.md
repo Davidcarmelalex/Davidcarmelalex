@@ -55,3 +55,7 @@ Build a distributed AI operating system that integrates human communication, aut
 ![AI System](https://img.shields.io/badge/AI-System-blue)
 ![Automation](https://img.shields.io/badge/Automation-Agent47-green)
 ![Voice AI](https://img.shields.io/badge/Voice-AIKA-purple)
+
+## Master Architecture
+
+- [Asgardia Master Architecture](./docs/ASGARDIA_MASTER_ARCHITECTURE.md)
