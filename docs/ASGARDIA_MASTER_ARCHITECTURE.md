@@ -1,101 +1,161 @@
-# Asgardia Master Architecture
+# ASGARDIA MASTER BRAIN (Clean Version)
 
-## Purpose
+## Stack
 
-This document defines the operating architecture for the Asgardia ecosystem and prevents architectural drift across repositories.
+ASGARDIA
+- HUMAN INTERFACE
+- COMMUNICATION NETWORK
+- AIKA (Conversation Engine)
+- AYOONI (Cognitive Core)
+- AGENT NETWORK
+- AUTOMATION ENGINE
+- GROSPHERE PLATFORM
+- VOLTEXGAMING ECOSYSTEM
 
-## System Layers
+## 1. Human Interface
 
-1. Human Interface Layer
-- AIKA conversation interface
-- WhatsApp, Telegram, Voice, Web Dashboard
+Channels:
+- WhatsApp
+- Telegram
+- Phone Calls
+- Web Dashboard
+- API
 
-2. Cognitive Layer
-- AYOONI planning, reasoning, routing, orchestration
+All incoming messages route to AIKA.
 
-3. Agent Network Layer
-- Agent47 (execution)
-- AIKA-PA (personal assistant)
-- Skill Planner (capability routing)
-- Knowledge Agent (memory/search)
-- Monitoring Agent (alerts)
-- DevOps Agent (deployments)
+## 2. AIKA - Conversation Engine
 
-4. Automation Layer
+Responsibilities:
+- Conversation management
+- Voice interaction
+- User identity handling
+- Context tracking
+- Message routing
+
+Flow:
+- User -> AIKA -> AYOONI
+
+## 3. AYOONI - Cognitive Core
+
+Responsibilities:
+- Reasoning
+- Planning
+- Task routing
+- Agent coordination
+- Decision making
+
+Example behavior:
+- Decide which agent to use
+- Decide what command to execute
+- Return structured response
+
+## 4. Agent Network
+
+Agents:
+- Agent47
+- AIKA-PA
+- Skill Planner
+- Knowledge Agent
+- Monitoring Agent
+- DevOps Agent
+
+Examples:
+- Agent47 -> infrastructure commands
+- AIKA-PA -> personal tasks/reminders
+- Monitoring Agent -> system alerts
+- DevOps Agent -> deployments
+
+## 5. Automation Layer
+
+Automation contains:
+- Skills (`network`, `scraper`, `indexing`, `binary`)
+- Workflows
+- System operations
 - Infrastructure scripts
-- Container/runtime control
-- Integrations and workflows
 
-5. Platform Layer
-- GROSPHERE dashboard and APIs
+Handles:
+- Servers
+- Docker
+- APIs
+- System automation
 
-6. Product Layer
-- VOLTEXGAMING services and applications
+## 6. Grossphere Platform
 
-## Repository-to-Layer Map
+Functions:
+- System monitoring
+- Agent visualization
+- API gateway
+- Service control
+- Platform management
 
-- `automation`: execution engine, agents, skills, ops workflows
-- `ayooni`: cognitive core, planning, orchestration, memory
-- `grossphere`: platform APIs, dashboard, orchestration surface
-- `voltexgaming`: product services and gameplay stack
-- `Davidcarmelalex`: profile documentation and architecture overview
+Dashboard surfaces:
+- Active agents
+- Tasks
+- Alerts
+- System metrics
+- Conversation logs
 
-## Command Flow
+## 7. VoltexGaming Ecosystem
 
-User/Channel -> AIKA -> AYOONI -> Agent Bus -> Specialized Agent -> Automation/Services -> Response
+VoltexGaming includes:
+- Backend
+- Game servers
+- Integrations
+- Services
 
-## Asgardia Master Brain Map
+Powered by:
+- Grossphere APIs
+- Automation layer
+- AYOONI intelligence
+
+## 8. Memory Graph (Neutral)
+
+Persistent knowledge domains:
+- Contacts
+- Projects
+- Services
+- System state
+- Conversation context
+- Tasks
+
+Neutral examples:
+- Contact -> phone number
+- Service -> docker container
+- Project -> repository
+
+## 9. Communication Layer
+
+Components:
+- WhatsApp bridge
+- Telegram bot
+- Voice gateway
+- WebSocket API
+- External integrations
+
+Everything routes through AIKA.
+
+## 10. Final Architecture
 
 ```mermaid
 graph TD
-
-U[Users] --> WA[WhatsApp]
-U --> TG[Telegram]
-U --> VC[Voice]
-U --> WB[Web Dashboard]
-
-WA --> AIKA[AIKA Interaction Engine]
-TG --> AIKA
-VC --> AIKA
-WB --> AIKA
-
-AIKA --> AYOONI[AYOONI Cognitive Core]
-
-AYOONI --> BUS[Agent Bus]
-BUS --> A47[Agent47 Execution Agent]
-BUS --> APA[AIKA-PA Personal Assistant]
-BUS --> SPL[Skill Planner]
-BUS --> KAG[Knowledge Agent]
-BUS --> MAG[Monitoring Agent]
-BUS --> DAG[DevOps Agent]
-
+USERS[Users] --> COMM[Communication Layer]
+COMM --> AIKA[AIKA]
+AIKA --> AYOONI[AYOONI]
+AYOONI --> NET[Agent Network]
+NET --> A47[Agent47]
+NET --> APA[AIKA-PA]
+NET --> KAG[Knowledge Agent]
 A47 --> AUTO[Automation Layer]
-SPL --> AUTO
-DAG --> AUTO
-MAG --> AUTO
-
-AUTO --> GRS[GROSPHERE Platform]
-AUTO --> VTX[VOLTEXGAMING Product]
-
-AYOONI --> MEM[Memory Graph]
-AIKA --> MEM
-KAG --> MEM
-
-MEM --> AYOONI
+AUTO --> GRS[Grossphere Platform]
+GRS --> VTX[VoltexGaming]
 ```
 
-## Operational Principles
+## System Outcome
 
-- Keep AIKA as the only human-facing conversational gateway.
-- Keep AYOONI as the only orchestrator.
-- Route execution through agent bus; avoid tight agent-to-agent direct coupling.
-- Store persistent context in memory graph/state stores.
-- Expose platform control through GROSPHERE dashboard and APIs.
-
-## Definition of Done (Platform Level)
-
-- Multi-channel communication (WhatsApp/Telegram/Voice/Web)
-- Orchestrated multi-agent execution via bus
-- Persistent memory + task state
-- Dashboard observability for agent/runtime health
-- Automated remediation for monitored failures
+Asgardia becomes an AI ecosystem capable of:
+- Conversational AI
+- Voice assistant flows
+- Automation control
+- Multi-agent collaboration
+- Platform orchestration
+- Product integration
