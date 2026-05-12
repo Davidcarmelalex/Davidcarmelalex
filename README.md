@@ -1,61 +1,49 @@
-# ASGARDIA AI ECOSYSTEM
+<div align="center">
 
-Builder: David Carmel Alex
+# David Carmel Alex
 
-Asgardia is an AI-driven infrastructure system designed to power conversational AI, automation, and digital platforms.
+**Building the Voltex Network — AI infrastructure for the next civilization layer.**
 
-## Architecture
+[![FCRI](https://img.shields.io/badge/FCRI-Science%20%26%20Research-blue?style=flat-square)](https://fcri.science)
+[![VoltexBazar](https://img.shields.io/badge/VoltexBazar-AI%20Agent%20Marketplace-purple?style=flat-square)](https://voltexbazar.io)
 
-AIKA -> Human Interaction Layer  
-AYOONI -> Cognitive AI Brain  
-AUTOMATION -> Execution Engine  
-GROSPHERE -> Platform Infrastructure  
-VOLTEXGAMING -> Product Ecosystem
+</div>
 
-## Core Repositories
+---
 
-| Layer | Repository | Description |
-|------|------|------|
-| Automation | [automation](https://github.com/Davidcarmelalex/automation) | execution agents and skills |
-| AI Brain | [ayooni](https://github.com/Davidcarmelalex/ayooni) | reasoning and orchestration |
-| Platform | [grossphere](https://github.com/Davidcarmelalex/grossphere) | platform infrastructure |
-| Product | [voltexgaming](https://github.com/Davidcarmelalex/voltexgaming) | gaming ecosystem |
+## What I'm Building
 
-## Communication Layer
+| Project | Description | Status |
+|---------|-------------|--------|
+| [**Voltex Network**](https://github.com/Davidcarmelalex) | Umbrella ecosystem for AI, research, and civilization infrastructure | 🔨 Active |
+| [**VoltexBazar**](https://github.com/Davidcarmelalex/voltexbazar) | AI agent marketplace — deploy agents without being an infra engineer | 🔨 Active |
+| [**FCRI**](https://github.com/Davidcarmelalex/fcri) | Fusion Civilization Research Institute — frontier science & fellowships | 🔨 Active |
+| [**AZRAEL**](https://github.com/Davidcarmelalex/fcri/tree/main/azrael) | Autonomous cyber defense stack — self-healing, sovereign, open | 🚧 Building |
+| [**Ayooni**](https://github.com/Davidcarmelalex/ayooni) | Core AI cognitive engine — reasoning, memory, agent orchestration | 🔨 Active |
+| [**AIKA**](https://github.com/Davidcarmelalex/aika) | Conversational AI product layer | 🔨 Active |
 
-AIKA supports interaction through:
+---
 
-- WhatsApp
-- Telegram
-- Voice AI
-- Web Chat
+## Stack
 
-## AI Models
+**Frontend:** Next.js 16 · React 19 · TypeScript · Tailwind CSS 4
 
-- Llama3
-- Mistral
-- Qwen coder
-- Phi
+**Backend:** Python · Node.js · Express · Prisma · PostgreSQL
 
-## Ecosystem Map
+**AI/Agents:** Custom orchestration · Multi-agent systems · LLM routing
 
-```mermaid
-graph TD
-User --> AIKA
-AIKA --> AYOONI
-AYOONI --> AUTOMATION
-AUTOMATION --> GROSPHERE
-GROSPHERE --> VOLTEXGAMING
-```
+**Infra:** Nginx · Docker · systemd · Datadog
 
-## Vision
+---
 
-Build a distributed AI operating system that integrates human communication, automation, and digital ecosystems.
+## Ecosystem Vision
 
-![AI System](https://img.shields.io/badge/AI-System-blue)
-![Automation](https://img.shields.io/badge/Automation-Agent47-green)
-![Voice AI](https://img.shields.io/badge/Voice-AIKA-purple)
+> *"The Voltex Network is the infrastructure layer between human ambition and machine execution."*
 
-## Master Architecture
+Building in public. Based in Liberland. Shipping world-class.
 
-- [Asgardia Master Architecture](./docs/ASGARDIA_MASTER_ARCHITECTURE.md)
+---
+
+<div align="center">
+<sub>Last updated: May 2026</sub>
+</div>
