@@ -73,6 +73,23 @@ Human Interaction
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Davidcarmelalex&show_icons=true&theme=dark&title_color=D4AF37&icon_color=D4AF37&text_color=ffffff&bg_color=0d1117&border_color=D4AF37&hide_border=false&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davidcarmelalex&layout=compact&theme=dark&title_color=D4AF37&text_color=ffffff&bg_color=0d1117&border_color=D4AF37&langs_count=8" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Davidcarmelalex&theme=dark&background=0D1117&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=D4AF37&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=D4AF37&sideLabels=D4AF37&dates=888888)](https://git.io/streak-stats)
+
+</div>
+
+---
+
 ## Ecosystem Vision
 
 > *"The Voltex Network is the infrastructure layer between human ambition and machine execution."*
@@ -81,14 +98,16 @@ Building in public from Liberland. Shipping world-class.
 
 ---
 
+## Connect
+
 <div align="center">
 
+[![GitHub](https://img.shields.io/badge/GitHub-Davidcarmelalex-181717?style=for-the-badge&logo=github)](https://github.com/Davidcarmelalex)
 [![FCRI](https://img.shields.io/badge/FCRI-fcri.science-D4AF37?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkw0IDZWMThMMTIgMjJMMjAgMThWNkwxMiAyWiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=)](https://fcri.science)
 [![VoltexBazar](https://img.shields.io/badge/VoltexBazar-voltexbazar.io-7C3AED?style=for-the-badge)](https://voltexbazar.io)
-[![GitHub](https://img.shields.io/github/followers/Davidcarmelalex?style=for-the-badge&label=Follow&logo=github)](https://github.com/Davidcarmelalex)
 
 </div>
 
 <div align="center">
-<sub>Last updated: May 2026 · Part of the Voltex Network</sub>
+<sub>Part of the Voltex Network · Updated May 2026</sub>
 </div>

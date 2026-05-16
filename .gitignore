@@ -1,3 +1,105 @@
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
 *.log
-*.env
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.vite/
+.turbo/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.egg-info/
+dist/
+*.egg
+
+# Java / Kotlin / Android
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.aab
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Terraform / Infrastructure
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!*.tfvars.example
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Misc
+*.zip
+*.tar.gz
+*.bak
+tmp/
+temp/
